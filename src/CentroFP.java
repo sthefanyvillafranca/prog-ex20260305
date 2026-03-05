@@ -13,7 +13,11 @@ public class CentroFP {
         alumnos = new Alumno[MAX_ALUMNOS];
     }
 
-    private int buscarPrimerHuecoLibre(){
+    /**
+     * Metodo que Busca la primera posición libre dentro del array.
+     * @return int el índice libre si lo encuentra o -1 si el array está completo
+     */
+    private int buscarPrimerHuecoLibre() {
         int posicionHuecoLibre = -1;
         boolean sigueBuscando = true;
 
