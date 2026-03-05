@@ -4,6 +4,10 @@ public class CentroFP {
     private Alumno[] alumnos;
     private final int MAX_ALUMNOS;
 
+    /**
+     * Metodo constructor
+     * @param MAX_ALUMNOS
+     */
     public CentroFP(int MAX_ALUMNOS) {
         this.MAX_ALUMNOS = 20;
         alumnos = new Alumno[MAX_ALUMNOS];
