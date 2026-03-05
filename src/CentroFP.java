@@ -30,7 +30,12 @@ public class CentroFP {
         return posicionHuecoLibre;
     }
 
-    public Alumno buscarAlumno(int id){
+    /**
+     *Metodo que busca un alumno con el identificador recibido
+     * @param id
+     * @return el objeto Alumno si lo encuentra o null si no existe
+     */
+    public Alumno buscarAlumno(int id) {
         boolean sigueBuscando = true;
         Alumno alumnoEncontrado = null;
 
