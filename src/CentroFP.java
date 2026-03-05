@@ -35,4 +35,17 @@ public class CentroFP {
         return alumnoEncontrado;
     }
 
-}
+    public boolean registrarAlumno(Alumno alumno) {
+        boolean registroRealizado = false;
+        int posicionHuecoLibre;
+
+        posicionHuecoLibre = buscarPrimerHuecoLibre();
+
+        if (buscarAlumno(alumno.getId()) == null) { // SI ES IGUAL A NULL ES PORQUE NO EXISTE ANTES
+            if (posicionHuecoLibre >= 0) {
+                alumnos[posicionHuecoLibre] = alumno;
+                registroRealizado = true;
+            }
+        }
+        return registroRealizado;
+    }
