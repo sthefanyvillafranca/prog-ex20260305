@@ -60,7 +60,7 @@ public class CentroFP {
                 sb.append("\n");
             }
         }
-        System.out.println(sb.toString()); /* No devuelve un string ??? */
+        return sb.toString(); /* No devuelve un string ??? */
     }
 
     public int contarAlumnos(){
