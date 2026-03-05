@@ -72,7 +72,7 @@ public class CentroFP {
 
     /**
      * Metodo que muestra por pantalla todos los alumnos almacenados
-     * @return String 
+     * @return String
      */
     public String mostrarAlumnos() {
         StringBuilder sb = new StringBuilder("Lista de alumnos : \n");
