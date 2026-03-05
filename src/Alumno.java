@@ -37,6 +37,10 @@ public class Alumno {
         return nombre;
     }
 
+    /**
+     * TituloFP
+     * @return String
+     */
     public String getTituloFP() {
         return tituloFP;
     }
