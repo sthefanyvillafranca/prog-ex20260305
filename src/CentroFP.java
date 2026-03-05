@@ -49,3 +49,24 @@ public class CentroFP {
         }
         return registroRealizado;
     }
+
+    public void mostrarAlumnos(){
+        StringBuilder sb = new StringBuilder("Lista de alumnos : ");
+        for (int i = 0; i < MAX_ALUMNOS; i++) {
+            if (alumnos[i] != null) {
+                sb.append(alumnos[i].toString());
+                sb.append("\n");
+            }
+        }
+        System.out.println(sb.toString()); /* No devuelve un string ??? */
+    }
+    
+}
+
+/**
+ * public Alumno buscarAlumno(int id)
+ * private int buscarPrimerHuecoLibre()
+ * public boolean registrarAlumno(Alumno alumno)
+ * todo: public void mostrarAlumnos()
+ * todo: public int contarAlumnos()
+ */
