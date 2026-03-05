@@ -19,5 +19,14 @@ public class Main {
         System.out.println("============*============");
         System.out.println("Número de alumnos encontrados:");
         System.out.println(centroFP.contarAlumnos());
+
+        System.out.println("\n==============");
+        System.out.println("Buscar un alumno inexistente:");
+        System.out.println(centroFP.buscarAlumno(4));
+
+        System.out.println("\n==============");
+        System.out.println("Buscar un alumno existente:");
+        System.out.println(centroFP.buscarAlumno(1));
+        
     }
 }
