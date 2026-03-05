@@ -52,8 +52,8 @@ public class CentroFP {
         return registroRealizado;
     }
 
-    public void mostrarAlumnos(){
-        StringBuilder sb = new StringBuilder("Lista de alumnos : ");
+    public String mostrarAlumnos() {
+        StringBuilder sb = new StringBuilder("Lista de alumnos : \n");
         for (int i = 0; i < MAX_ALUMNOS; i++) {
             if (alumnos[i] != null) {
                 sb.append(alumnos[i].toString());
