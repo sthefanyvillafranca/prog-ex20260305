@@ -70,6 +70,10 @@ public class CentroFP {
         return registroRealizado;
     }
 
+    /**
+     * Metodo que muestra por pantalla todos los alumnos almacenados
+     * @return String 
+     */
     public String mostrarAlumnos() {
         StringBuilder sb = new StringBuilder("Lista de alumnos : \n");
         for (int i = 0; i < MAX_ALUMNOS; i++) {
