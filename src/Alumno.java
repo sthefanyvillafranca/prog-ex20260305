@@ -53,6 +53,10 @@ public class Alumno {
         return edad;
     }
 
+    /**
+     * Metodo toString
+     * @return String
+     */
     @Override
     public String toString() {
         return String.format("Alumno [id: %d | nombre: %s | tituloFP: %s | edad: %d]", id, nombre, tituloFP, edad);
