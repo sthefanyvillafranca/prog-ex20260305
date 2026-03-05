@@ -29,6 +29,10 @@ public class Alumno {
         return id;
     }
 
+    /**
+     * getNombre
+     * @return nombre
+     */
     public String getNombre() {
         return nombre;
     }
