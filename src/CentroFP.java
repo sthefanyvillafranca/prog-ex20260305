@@ -1,5 +1,6 @@
-package PACKAGE_NAME;
-
+/**
+ * @author sthefany villafranca
+ */
 public class CentroFP {
     private Alumno[] alumnos;
     private final int MAX_ALUMNOS;
