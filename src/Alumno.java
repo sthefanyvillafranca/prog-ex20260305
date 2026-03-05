@@ -31,6 +31,6 @@ public class Alumno {
 
     @Override
     public String toString() {
-        return String.format("Alumno [id: %d, nombre: %s, tituloFP: %s, edad: %d]", id, nombre, tituloFP, edad);
+        return String.format("Alumno [id: %d | nombre: %s | tituloFP: %s | edad: %d]", id, nombre, tituloFP, edad);
     }
 }
