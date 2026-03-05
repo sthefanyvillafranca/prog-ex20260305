@@ -85,7 +85,11 @@ public class CentroFP {
         return sb.toString(); /* No devuelve un string ??? */
     }
 
-    public int contarAlumnos(){
+    /**
+     *Metodo que cuenta los alumnos existentes 
+     * @return int (regresa el numero de alumnos)
+     */
+    public int contarAlumnos() {
         int contador = 0;
         for (int i = 0; i < MAX_ALUMNOS; i++) {
             if (alumnos[i] != null) {
