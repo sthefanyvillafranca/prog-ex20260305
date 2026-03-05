@@ -20,6 +20,10 @@ public class Alumno {
         this.edad = edad;
     }
 
+    /**
+     * Getter
+     * @return ID
+     */
     public int getId() {
         return id;
     }
