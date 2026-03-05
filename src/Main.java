@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println(centroFP.mostrarAlumnos());
         System.out.println("============*============");
-        System.out.println("Número de alumnos encontrados:");
+        System.out.println("Número total de alumnos:");
         System.out.println(centroFP.contarAlumnos());
 
         System.out.println("\n==============");
