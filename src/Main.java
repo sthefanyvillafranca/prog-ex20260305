@@ -7,9 +7,17 @@ public class Main {
 
         centroFP = new CentroFP(20);
 
-  for (int i = 1; i <= 5; i++) {
-    //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-    // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-    IO.println("i = " + i);
-  }
+        alumno1 = new Alumno(1,"Rodrigo","DAM",26);
+        alumno2 = new Alumno(2,"Panfi","DAM",20);
+        alumno3 = new Alumno(3,"Harry","DAM",21);
+
+        centroFP.registrarAlumno(alumno1);
+        centroFP.registrarAlumno(alumno2);
+        centroFP.registrarAlumno(alumno3);
+
+        System.out.println(centroFP.mostrarAlumnos());
+        System.out.println("============*============");
+        System.out.println("Número de alumnos encontrados:");
+        System.out.println(centroFP.contarAlumnos());
+    }
 }
