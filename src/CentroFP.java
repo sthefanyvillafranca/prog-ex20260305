@@ -22,4 +22,17 @@ public class CentroFP {
         return posicionHuecoLibre;
     }
 
+    public Alumno buscarAlumno(int id){
+        boolean sigueBuscando = true;
+        Alumno alumnoEncontrado = null;
+
+        for(int i = 0; i < MAX_ALUMNOS && sigueBuscando; i++){
+            if(alumnos[i].getId() == id){
+                alumnoEncontrado = alumnos[i];
+                sigueBuscando = false;
+            }
+        }
+        return alumnoEncontrado;
+    }
+
 }
