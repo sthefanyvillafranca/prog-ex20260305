@@ -23,7 +23,7 @@ public class Alumno {
 
     /**
      * Getter
-     * @return ID
+     * @return int
      */
     public int getId() {
         return id;
