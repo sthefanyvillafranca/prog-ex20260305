@@ -1,5 +1,6 @@
-package PACKAGE_NAME;
-
+/**
+ * @author sthefany villafranca
+ */
 public class Alumno {
     private int id;
     private String nombre;
