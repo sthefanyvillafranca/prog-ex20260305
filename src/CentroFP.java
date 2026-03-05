@@ -50,6 +50,11 @@ public class CentroFP {
         return alumnoEncontrado;
     }
 
+    /**
+     * Metodo que Añade un alumno al sistema
+     * @param alumno
+     * @return true si el alumno se ha registrado correctamente o false si no se ha podido
+     */
     public boolean registrarAlumno(Alumno alumno) {
         boolean registroRealizado = false;
         int posicionHuecoLibre;
