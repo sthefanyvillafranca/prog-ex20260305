@@ -45,6 +45,10 @@ public class Alumno {
         return tituloFP;
     }
 
+    /**
+     *getEdad
+     * @return int EDAD
+     */
     public int getEdad() {
         return edad;
     }
